@@ -9,10 +9,9 @@ public class Emailvalidate {
         System.out.println();
         String[] user_emails = email_string.split("\\s");
 
-        System.out.println(user_emails.length);
 
         //checks that the user has at least one argument
-        if(user_emails.length <  1) {
+        if(user_emails.length < 1 || email_string.isEmpty()) {
             System.out.println("There isn't at least one email, program will exit");
             System.exit(0);
         }
