@@ -2,7 +2,7 @@
 
 #### DESCRIPTION
 
-####Project Objective:
+#### Project Objective:
 
 As a developer, write a program to find the longest increasing subsequence.
 
